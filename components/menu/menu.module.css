@@ -1,0 +1,49 @@
+.left-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: #99ED6C;
+    width: 180px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.left-navbar h2 {
+    padding: 10px 10px 8px 0;
+}
+
+.left-navbar span {
+    padding: 15px;
+}
+
+.left-navbar a:hover,
+.menu:hover {
+    color: gray;
+}
+
+.menu.selected {
+    background-color: #7FB636;
+    font-style: italic;
+    border-radius: 20px;
+}
+
+.left-navbar h2:hover {
+    color: #598122;
+}
+
+.left-navbar a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+@media screen and (max-width: 425px) {
+    .left-navbar {
+        width: 45%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}
